@@ -14,12 +14,12 @@
 		<header>
 			<nav>
 			<?php
-	$args = array(
-		'menu' => 'principal',
-		'container' => false
-	);
-	wp_nav_menu( $args );
-?>
+				$args = array(
+					'menu' => 'principal',
+					'container' => false
+				);
+				wp_nav_menu( $args );
+			?>
 			</nav>
 
 			<h1><img src="<?php echo get_stylesheet_directory_uri() ?>/img/rest.png" alt="Rest"></h1>
